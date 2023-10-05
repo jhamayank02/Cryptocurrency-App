@@ -1,0 +1,54 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 5px 0 2px 0;
+    overflow: hidden;
+}
+
+.row div{
+    width: 10%;
+    min-width: 10%;
+}
+
+.row div:nth-child(3), .row div:nth-child(6), .row div:nth-child(4){
+    width: 15%;
+    min-width: 15%;
+    display: block;
+}
+
+.row .image img{
+    height: 40px;
+}
+
+.row .name{
+    text-transform: capitalize;
+}
+
+.profit{
+    color: red;
+}
+
+.loss{
+    color: green;
+}
+
+@media screen and (max-width: 1160px) {
+    .row{
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 1106px) {
+    .row div:nth-child(5), .row div:nth-child(6){
+        display: none;
+        width: 0;
+    }
+    .row div:nth-child(4){
+        width: 28%;
+    }
+}

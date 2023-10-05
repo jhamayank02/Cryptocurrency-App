@@ -1,0 +1,84 @@
+.show-data{
+    color: white;
+    padding: 15px 21px;
+    position: relative;
+}
+
+.show-data .flex{
+    display: flex;
+    align-items: center;
+}
+
+.show-data .image{
+    margin-right: 7px;
+}
+
+.show-data .image img{
+    height: 30px;
+}
+
+.show-data .name{
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.show-data .price{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.show-data .price-change{
+    font-size: 14px;
+}
+
+.profit{
+    color: red;
+}
+
+.loss{
+    color: green;
+}
+
+.show-data .symbol{
+    color: #676e6e;
+    margin-left: 4px;
+}
+
+.show-data .others{
+    margin: 22px 0px;
+}
+
+.show-data .others div{
+    margin-bottom: 7px;
+}
+
+.show-data .others div span:nth-child(1){
+    font-weight: 100;
+    margin-right: 7px;
+    color: #cdcdcd
+}
+
+.show-data .others div  span:nth-child(2){
+    font-weight: 100;
+}
+
+.show-data .others div .mkt-cap{
+    color: #787878;
+}
+
+.close-btn{
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px 10px;
+}
+
+.close-btn:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
