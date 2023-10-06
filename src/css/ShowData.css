@@ -34,11 +34,11 @@
 }
 
 .profit{
-    color: red;
+    color: green;
 }
 
 .loss{
-    color: green;
+    color: red;
 }
 
 .show-data .symbol{

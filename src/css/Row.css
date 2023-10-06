@@ -8,6 +8,7 @@
     border-radius: 3px;
     padding: 5px 0 2px 0;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .row div{
@@ -30,11 +31,11 @@
 }
 
 .profit{
-    color: red;
+    color: green;
 }
 
 .loss{
-    color: green;
+    color: red;
 }
 
 @media screen and (max-width: 1160px) {
