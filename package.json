@@ -1,7 +1,7 @@
 {
   "name": "cryptocurrency-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/jhamayank02/Cryptocurrency-App",
+  "homepage": "https://jhamayank02.github.io/Cryptocurrency-App",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
